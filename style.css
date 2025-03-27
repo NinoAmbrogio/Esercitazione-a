@@ -1,0 +1,63 @@
+@import url(./index.css);
+
+*{
+    font-family: var(--font-1);
+    color: var(--color-primary);
+
+    
+}
+
+.sup{
+font-size: 7px;
+
+}
+
+
+.logo{
+width: 32px;
+border-radius: 50%;
+
+
+}
+nav{
+    margin: 0px 125px;
+}
+
+.nav{
+    justify-content: space-between;
+   display: flex;
+   align-items: center;
+  
+  
+}
+
+.nav div a{
+    text-decoration: none;
+}
+
+.navleft{
+display: flex;
+text-align: center;
+align-items: center;
+gap: 10px;
+
+
+
+}
+.navright{
+    display:flex;
+    text-align: center;
+    gap: 40px;
+    
+}
+.header{
+padding-top: 71px;
+}
+.header h2{
+size: var(--text-size-primary);
+text-align: center;
+font-weight: 400;
+
+
+
+}
