@@ -3,6 +3,7 @@
 *{
     font-family: var(--font-1);
     color: var(--color-primary);
+    font-weight: 400;
 
     
 }
@@ -19,6 +20,7 @@ border-radius: 50%;
 
 
 }
+/*-----------------------------------NAV------------------------*/
 nav{
     margin: 0px 125px;
 }
@@ -50,13 +52,18 @@ gap: 10px;
     gap: 40px;
     
 }
+
+/*-----------------------------------HEADER------------------------*/
 .header{
-padding-top: 71px;
+padding-top: 150px;
 }
 .header h2{
-size: var(--text-size-primary);
+
 text-align: center;
-font-weight: 400;
+font-weight: 500;
+font-size: 14px;
+
+
 
 
 
@@ -64,4 +71,13 @@ font-weight: 400;
 .header h1{
 font-size: clamp(36px, 15.5774647887px + 4.0845070423vw, 94px);
 text-align: center;
+line-height: 100%;
+margin: 0;
+margin-top: 14px;
+}
+.header_middle_under{
+align-items: center;
+text-align: center;
+
+
 }
